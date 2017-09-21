@@ -474,8 +474,17 @@ a:hover {
 }
 .btn {
   display: block;
+  width: 351px;
+  height: 71px;
   text-align: center;
   text-decoration: none;
+  font-size: 2.2rem;
+  font-family: 'GothamProBold', sans-serif;
+  color: #fff;
+  line-height: 71px;
+  background: #79aa47;
+  -webkit-border-radius: 34px;
+          border-radius: 34px;
   border: none;
   outline: none;
   cursor: pointer;
@@ -484,6 +493,8 @@ a:hover {
 }
 .btn:hover {
   text-decoration: none;
+  color: #79aa47;
+  background: #fff;
 }
 .btn:active {
   -webkit-transform: translateY(2px);
