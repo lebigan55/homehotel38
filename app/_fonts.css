@@ -1,0 +1,36 @@
+@font-face {
+	font-family: "ProximaNova";
+	src: url("fonts/Proxima Nova/ProximaNova-Regular.eot");
+	src: url("fonts/Proxima Nova/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"),
+			 url("fonts/Proxima Nova/ProximaNova-Regular.woff") format("woff"),
+			 url("fonts/Proxima Nova/ProximaNova-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "GothamPro";
+	src: url("fonts/Gotham/GothamProRegular.eot");
+	src: url("fonts/Gotham/GothamProRegular.eot?#iefix") format("embedded-opentype"),
+			 url("fonts/Gotham/GothamPro.woff") format("woff"),
+			 url("fonts/Gotham/GothamPro.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "GothamProMedium";
+	src: url("fonts/Gotham/GothamProMedium.eot");
+	src: url("fonts/Gotham/GothamProMedium.eot?#iefix") format("embedded-opentype"),
+			 url("fonts/Gotham/GothamPro-Medium.woff") format("woff"),
+			 url("fonts/Gotham/GothamPro-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "GothamProBold";
+	src: url("fonts/Gotham/GothamProBold.eot");
+	src: url("fonts/Gotham/GothamProBold.eot?#iefix") format("embedded-opentype"),
+			 url("fonts/Gotham/GothamPro-Bold.woff") format("woff"),
+			 url("fonts/Gotham/GothamPro-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

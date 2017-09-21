@@ -1,0 +1,87 @@
+body {
+	font-family: @ff;
+	font-size: @fs;
+}
+
+p {
+	font-size: @fs; 
+	line-height: @lh; 
+	color: @text-color; 
+	margin: @text-margin;
+}
+h1 {
+	.fs(@h1);
+	font-weight: 400; 
+	line-height: @lh; 
+	color: @text-color; 
+	margin: @text-margin;
+}
+h2 {
+	font-size: @h2; 
+	font-weight: 400; 
+	line-height: @lh; 
+	color: @text-color; 
+	margin: @text-margin;
+}
+h3 {
+	font-size: @h3; 
+	font-weight: 400; 
+	line-height: @lh; 
+	color: @text-color; 
+	margin: @text-margin;
+}
+h4 {
+	font-size: @h4; 
+	font-weight: 400; 
+	line-height: @lh; 
+	color: @text-color; 
+	margin: @text-margin;
+}
+h5 {
+	font-size: @h5; 
+	font-weight: 400; 
+	line-height: @lh; 
+	color: @text-color; 
+	margin: @text-margin;
+}
+h6 {
+	font-size: @h6; 
+	font-weight: 400; 
+	line-height: @lh; 
+	color: @text-color; 
+	margin: @text-margin;
+}
+a {
+	font-size: @fs; 
+	line-height: @lh; 
+	color: @text-color; 
+	margin: @text-margin;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+.main-headline {
+	font-family: @ff2;
+	.fs(@h2);
+	text-align: center;
+	text-transform: uppercase;	
+	margin-bottom: 50px;
+}
+.main-headline:after {
+	content: '';
+	display: block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 10px solid @green;
+	margin: 10px auto 0;
+}
+.align-right {text-align: right;}
+
+.table {
+	display: table;
+}
+.table-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
