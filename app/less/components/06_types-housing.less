@@ -1,25 +1,71 @@
-.loader {
-    background: none repeat scroll 0 0 #ffffff;
-    bottom: 0;
-    height: 100%;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
+.types-housing {
     width: 100%;
-    z-index: 9999;
-}
-.loader_inner {
-    background-image: url("../img/preloader.gif");
+    min-height: 1630px;
+    background: url("@{dir}bg-types-housing.jpg") top center no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-color: #fff;
-    height: 60px;
-    width: 60px;
-    margin-top: -30px;
-    margin-left: -30px;
-    left: 50%;
-    top: 50%;
-    position: absolute;
+    padding-top: 145px;
+    &__headline-wrap {        
+        span {
+            font-family: @ff;
+        }
+    }
+}
+.tab {
+    padding-top: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #888;
+    -webkit-font-smoothing: antialiased;
+}
+.tabs {
+    display: table;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+}
+.tabs li {
+    float: left;
+    line-height: 38px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+.tabs a {
+    background-color: #eff0f2;
+    border-bottom: 1px solid #fff;
+    color: #888;
+    font-weight: 500;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    padding: 0 20px;
+    text-decoration: none;    
+    transition: all 0.2s ease-in-out;    
+}
+.tabs_item {
+    display: none;
+    padding: 30px 0;
+}
+.tabs_item h4 {
+    font-weight: bold;    
+    font-size: 20px;
+}
+.tabs_item img {
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+.tabs_item:first-child {    
+    display: block;
+}
+.current a {
+    color: #fff;    
 }

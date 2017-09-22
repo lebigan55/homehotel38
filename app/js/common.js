@@ -1,27 +1,42 @@
 $(function() {
 
+    new WOW().init();
 
-	// Smooth Scroll to block
-	$('a[href^="#l"]').click(function(){
+
+    // Smooth Scroll to block
+    $('a[href^="#l"]').click(function(){
         var target = $(this).attr('href');
         $('html, body').animate({scrollTop: $(target).offset().top}, 1000);
         return false; 
-   });
+    });
 
-	//Chrome Smooth Scroll
-	try {
-		$.browserSelector();
-		if($("html").hasClass("chrome")) {
-			$.smoothScroll();
-		}
-	} catch(err) {
+    //Chrome Smooth Scroll
+    try {
+        $.browserSelector();
+        if($("html").hasClass("chrome")) {
+            $.smoothScroll();
+        }
+    } catch(err) {
 
-	};
+    };
 
-	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
+    $("img, a").on("dragstart", function(event) { event.preventDefault(); });
 
 });
 $(document).ready(function() {
+
+    //nav-menu
+    $(".button a").click(function(){
+        $(".overlay").fadeToggle(200);
+        $(this).toggleClass('btn-open').toggleClass('btn-close');
+    });
+
+    $('.overlay').on('click', function(){
+        $(".overlay").fadeToggle(200);   
+        $(".button a").toggleClass('btn-open').toggleClass('btn-close');
+        open = false;
+    });
+    
     $('#slider').owlCarousel({
         loop: true,
         margin: 10,
@@ -30,7 +45,7 @@ $(document).ready(function() {
         items: 1
     });
 
-      $('#slider-1').owlCarousel({
+    $('#slider-1').owlCarousel({
         loop:true,
         margin:30,
         nav:true,
@@ -46,9 +61,27 @@ $(document).ready(function() {
             }
         }
     })
+});
+$(document).ready(function() { 
+
+    (function ($) { 
+        $('.tab ul.tabs').addClass('active').find('> li:eq(0)').addClass('current');
+        
+        $('.tab ul.tabs li a').click(function (g) { 
+            var tab = $(this).closest('.tab'), 
+                index = $(this).closest('li').index();
+            
+            tab.find('ul.tabs > li').removeClass('current');
+            $(this).closest('li').addClass('current');
+            
+            tab.find('.tab_content').find('div.tabs_item').not('div.tabs_item:eq(' + index + ')').slideUp();
+            tab.find('.tab_content').find('div.tabs_item:eq(' + index + ')').slideDown();
+            
+            g.preventDefault();
+        } );
+    })(jQuery);
 
 });
 $("#contact-call-back").validate();
 $("#contact-order-call").validate();
 $("#contact-get-price").validate();
-
