@@ -63,7 +63,7 @@ $(document).ready(function() {
     })
 });
 $(document).ready(function() { 
-
+    //Sexy Tabs
     (function ($) { 
         $('.tab ul.tabs').addClass('active').find('> li:eq(0)').addClass('current');
         
