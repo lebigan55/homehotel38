@@ -1,0 +1,74 @@
+.order-settlement {
+	width: 100%;
+	height: auto;
+	padding-top: 150px;
+	&__headline-wrap {
+		display: block;
+		margin: 0 auto;
+	}
+	&__headline {
+		&:after {
+			margin-top: -75px;
+    		margin-left: 295px;
+		}
+	}
+}
+.order-settlement__item-wrap {
+	max-width: 358px;
+ 	min-height: 283px;
+ 	border-radius: 10px;
+ 	border: 1px solid rgb(229, 229, 229);
+ 	padding: 47px 40px;
+ 	margin-bottom: 37px;
+	&--icon {
+		width: 65px;
+		height: 55px;
+		margin: 0 auto 35px;
+	}
+	&--text {
+		p {
+			font-size: @fsb;
+		}
+		span {
+			font-family: @ff1;
+			font-size: 2.4rem;
+			color: #e5e5e5;
+		}		
+	}
+	&--text-medium {
+		p {
+			font-family: @ff1;
+		}
+	}	
+}
+.linck-item {
+	display: block;
+	max-width: 358px;
+ 	min-height: 283px;
+ 	font-family: @ff2;
+ 	font-size: 4rem;
+ 	color: @white;
+ 	background: @green;
+ 	background-image: url('../img/phone-call.png');
+ 	background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 10px;
+ 	border: 1px solid rgb(229, 229, 229);
+ 	padding: 58px; 	
+ 	margin-bottom: 37px;
+ 	text-decoration: underline;
+ 	overflow: hidden; 
+ 	position: relative;	
+}
+.linck-item:hover {
+	background: #6da137;
+	background-image: url('../img/phone-call.png');
+ 	background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+	box-shadow: 0px 0px 12px 0px #79aa47;
+}
+

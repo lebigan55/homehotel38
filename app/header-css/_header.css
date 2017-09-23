@@ -203,6 +203,7 @@ nav ul li a:hover {
 	color:#fff;
 }
 .general-btn {
+	text-transform: uppercase;
 	margin: 0 auto;
 }
 @media screen and (max-width:48em) {
