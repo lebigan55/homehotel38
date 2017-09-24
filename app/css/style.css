@@ -1093,3 +1093,9 @@ label.error {
 .main-footer__text-bottom ul li a:hover {
   color: #a0a0a0;
 }
+.similar-apartments {
+  width: 100%;
+  min-height: 710px;
+  background: url("../img/bg-similar-apartments.jpg") top center no-repeat;
+  background-size: cover;
+}

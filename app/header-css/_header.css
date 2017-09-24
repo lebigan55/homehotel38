@@ -206,6 +206,12 @@ nav ul li a:hover {
 	text-transform: uppercase;
 	margin: 0 auto;
 }
+.cart-hotel-header {
+	width: 100%;
+	min-height: 128px;
+	background: #191919;
+	padding-top: 40px;
+}
 @media screen and (max-width:48em) {
 	.wrap ul.wrap-nav>li {
 		width:100%;
