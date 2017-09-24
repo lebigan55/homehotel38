@@ -41,7 +41,8 @@ $(document).ready(function() {
         loop: true,
         margin: 10,
         nav: true,
-        dots: true,
+        dots: false,
+        navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
         items: 1
     });
 
