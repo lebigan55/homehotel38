@@ -847,6 +847,7 @@ label.error {
   background-position-y: center;
   -webkit-box-shadow: 0px 0px 12px 0px #79aa47;
           box-shadow: 0px 0px 12px 0px #79aa47;
+  text-decoration: none;
 }
 .reviews {
   width: 100%;
@@ -1097,6 +1098,274 @@ label.error {
 .main-footer__text-bottom ul li a:hover {
   color: #a0a0a0;
 }
+.remodal-wrapper {
+  background: rgba(18, 18, 18, 0.1);
+}
+.reservation {
+  max-width: 730px;
+  border: 5px solid #79aa47;
+}
+.reservation h2 {
+  font-family: 'GothamProBold', sans-serif;
+  font-size: 4.2rem;
+}
+.reservation p {
+  font-family: 'GothamProBold', sans-serif;
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+.reservation span {
+  font-family: 'GothamProBold', sans-serif;
+  font-size: 4rem;
+  color: #79aa47;
+  border-bottom: 2px solid #79aa47;
+}
+.main-form-timer {
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+}
+.main-form-timer p {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.modal-btn {
+  border: 1.5px solid #79aa47;
+  margin: 20px auto;
+}
+.main-form .input-group {
+  width: 265px;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+}
+.main-form .input-group input {
+  border: 1px solid #7f7f7f;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background-color: #fff;
+  width: 100%;
+  height: 58px;
+}
+.remodal-call-back,
+.policy-conf {
+  max-width: 730px;
+  border: 5px solid #79aa47;
+}
+.policy-confidential .main-headline:after {
+  display: none;
+}
+.policy-confidential {
+  text-align: left;
+}
+.policy-confidential h2 {
+  text-align: center;
+}
+#countbox .countbox-num {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  float: left;
+  font-family: 'LatoRegular', sans-serif;
+  text-align: center;
+  border: 1px solid #79aa47;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  padding-top: 0;
+  padding-left: 5px;
+  margin-right: 2px;
+  z-index: 999;
+}
+#countbox .countbox-space {
+  float: left;
+  height: 90px;
+  width: 2px;
+}
+#countbox-days1,
+#countbox-hours1,
+#countbox-mins1,
+#countbox-secs1,
+#countbox-days2,
+#countbox-hours2,
+#countbox-mins2,
+#countbox-secs2 {
+  float: left;
+  height: 67px;
+  margin: 0 -4px 0 0;
+  text-align: center;
+  width: 25px;
+  z-index: 1;
+}
+#countbox-days1,
+#countbox-hours1,
+#countbox-mins1,
+#countbox-secs1 {
+  margin-left: 18px;
+}
+#countbox .countbox-num__sec {
+  background: #79aa47;
+  color: #fff;
+  border: 1px solid #79aa47;
+}
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  #countbox {
+    height: 93px;
+    max-width: 280px;
+    color: #79aa47;
+    line-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #countbox .countbox-num {
+    width: 65px;
+    height: 65px;
+    font-size: 26px;
+    padding-left: 0px;
+  }
+  #countbox-days1,
+  #countbox-hours1,
+  #countbox-mins1,
+  #countbox-secs1 {
+    margin-left: 9px;
+  }
+  #countbox-days-text:before {
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    display: block;
+    content: "дней";
+    font-family: 'LatoRegular', sans-serif;
+  }
+  #countbox-hours-text:before {
+    position: absolute;
+    top: 13px;
+    left: 21px;
+    display: block;
+    content: "час.";
+  }
+  #countbox-mins-text:before {
+    content: "мин.";
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    display: block;
+  }
+  #countbox-secs-text:before {
+    content: "сек.";
+    position: absolute;
+    top: 13px;
+    left: 21px;
+    display: block;
+    color: #fff;
+  }
+  #countbox-days-text,
+  #countbox-hours-text,
+  #countbox-mins-text,
+  #countbox-secs-text {
+    margin-top: 0.8rem;
+    position: relative;
+    width: 20px;
+    font-family: 'LatoRegular', sans-serif;
+    font-size: 16px;
+    color: #79aa47;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  #countbox {
+    font-family: 'LatoRegular', sans-serif;
+    font-size: 36px;
+    line-height: 70px;
+    margin-top: 30px;
+    padding: 0;
+    max-width: 380px;
+    z-index: 100;
+    position: relative;
+  }
+  #countbox .countbox-num {
+    width: 90px;
+    height: 90px;
+    font-size: 36px;
+    background: #fff;
+    padding-left: 5px;
+  }
+  #countbox .countbox-num__sec {
+    background: #79aa47;
+  }
+  #countbox-days1,
+  #countbox-hours1,
+  #countbox-mins1,
+  #countbox-secs1 {
+    margin-left: 18px;
+  }
+  #countbox-days-text:before {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: block;
+    content: "дней";
+    font-family: 'LatoRegular', sans-serif;
+  }
+  #countbox-hours-text:before {
+    position: absolute;
+    top: 20px;
+    left: 26px;
+    display: block;
+    content: "час";
+  }
+  #countbox-mins-text:before {
+    content: "мин";
+    position: absolute;
+    top: 20px;
+    left: 23px;
+    display: block;
+  }
+  #countbox-secs-text:before {
+    content: "сек";
+    position: absolute;
+    top: 20px;
+    left: 26px;
+    display: block;
+  }
+  #countbox-days-text,
+  #countbox-hours-text,
+  #countbox-mins-text,
+  #countbox-secs-text {
+    font-size: 20px;
+  }
+}
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #countbox {
+    max-width: 100%;
+  }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .no-padding-right {
+    padding-right: 0;
+  }
+  .no-padding-left {
+    padding-left: 0;
+  }
+  #countbox {
+    margin: 20px auto;
+  }
+  #countbox .countbox-num {
+    margin-right: 20px;
+  }
+}
 .cart-hotel-number__wrap {
   width: 100%;
   padding-top: 85px;
@@ -1108,21 +1377,6 @@ label.error {
 .cart-hotel-number__outdoors p {
   font-family: 'GothamProBold', sans-serif;
   font-size: 3.6rem;
-}
-.project-slide {
-  max-width: 539px;
-}
-.project-slide__headline {
-  margin-bottom: 40px;
-}
-.project-slide__headline h3 {
-  font-family: 'ProximaNova', sans-serif;
-}
-.project-slide__text span {
-  display: block;
-  font-family: 'GothamProBold', sans-serif;
-  font-style: italic;
-  margin-bottom: 10px;
 }
 .cart-hotel-number__photo--images {
   display: none;
@@ -1173,6 +1427,98 @@ label.error {
 .slide-picture-after-two img {
   width: 100%;
   height: auto;
+}
+.cart-hotel-number__linck-gallary {
+  text-align: center;
+  padding-top: 25px;
+  margin-bottom: 70px;
+}
+.cart-hotel-number__linck-gallary a {
+  font-family: 'GothamProMedium', sans-serif;
+  color: #79aa47;
+  font-size: 20px;
+}
+.cart-hotel-number__text--wrap {
+  max-width: 400px;
+  padding-left: 45px;
+}
+.table-headline {
+  text-align: left;
+  padding-bottom: 20px;
+}
+.picker {
+  width: 205px;
+  color: #7f7f7f;
+  padding-bottom: 15px;
+}
+.fonts {
+  font-family: 'GothamProMedium', sans-serif;
+  padding-bottom: 15px;
+}
+.cart-hotel-number__text--btn-wrap {
+  padding-top: 40px;
+}
+.cart-hotel-number__reservation a,
+.cart-hotel-number__back-call a {
+  text-transform: uppercase;
+}
+.cart-hotel-number__reservation {
+  margin-bottom: 25px;
+}
+.cart-hotel-number__description-wrap--headline {
+  font-family: 'GothamProBold', sans-serif;
+}
+.cart-hotel-number__description-wrap--text {
+  padding-left: 30px;
+  margin-bottom: 65px;
+}
+li.cart-hotel-number__inner {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 55px;
+}
+li.cart-hotel-number__inner:last-child {
+  margin-right: 0;
+}
+.cart-hotel-number__description-wrap--map {
+  max-width: 880px;
+  min-height: 430px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  margin-left: 30px;
+  overflow: hidden;
+  background: #ccc;
+}
+.cart-hotel-gallary {
+  max-width: 800px;
+  min-height: 500px;
+}
+.cart-hotel-gallary-slide {
+  max-width: 800px;
+  min-height: 500px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  overflow: hidden;
+}
+#slider.cart-hotel-carousel {
+  max-width: 800px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+#slider.cart-hotel-carousel .owl-nav .owl-prev {
+  position: absolute;
+  top: 35%;
+}
+#slider.cart-hotel-carousel .owl-nav .owl-next {
+  position: absolute;
+  top: 35%;
+}
+.mfp-close-btn-in .mfp-close {
+  color: #fff;
+}
+.mfp-close {
+  right: 20%;
+  font-size: 3.5rem;
 }
 .cart-hotel-advantages {
   width: 100%;

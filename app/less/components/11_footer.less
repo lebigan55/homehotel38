@@ -60,3 +60,270 @@
 		color: #a0a0a0;
 	}
 }
+.remodal-wrapper {
+	background: rgba(18,18,18,0.1);
+}
+.reservation {
+	max-width: 730px;
+	border: 5px solid @green;	
+	h2 {
+		font-family: @ff2;
+		font-size: 4.2rem;
+	}
+	p {
+		font-family: @ff2;
+		font-size: 4rem;
+		margin-bottom: 30px;
+	}
+	span {
+		font-family: @ff2;
+		font-size: 4rem;
+		color: @green;
+		border-bottom: 2px solid @green;
+	}
+}
+.main-form-timer {
+	text-align: center;
+	max-width: 450px;
+    margin: 0 auto;
+}
+.main-form-timer p {
+	font-size: @fs;
+	text-transform: uppercase;
+}
+.modal-btn {
+	border: 1.5px solid @green;
+	margin: 20px auto;
+}
+.main-form .input-group {
+	width: 265px;
+	display: inline-block;
+	overflow: hidden;
+	margin: 10px;
+}
+.main-form .input-group input {    
+	border: 1px solid @grey;
+	border-radius: 5px;
+	background-color: @white;    
+	width: 100%;
+	height: 58px;
+}
+.remodal-call-back,
+.policy-conf {
+	max-width: 730px;
+	border: 5px solid @green;
+}
+.policy-confidential .main-headline:after {
+	display: none;
+}
+.policy-confidential {
+	text-align: left;
+	h2 {
+		text-align: center;
+	}
+}
+#countbox .countbox-num {
+	position: relative;
+	width: 70px;
+	height: 70px;
+	float: left;
+	font-family: 'LatoRegular', sans-serif;
+	text-align: center;
+	border: 1px solid #79aa47;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	padding-top: 0;
+	padding-left: 5px;
+	margin-right: 2px;
+	z-index: 999;
+}
+#countbox .countbox-space {
+	float: left;
+	height: 90px;
+	width: 2px;
+}
+#countbox-days1,
+#countbox-hours1,
+#countbox-mins1,
+#countbox-secs1,
+#countbox-days2,
+#countbox-hours2,
+#countbox-mins2,
+#countbox-secs2 {
+	float: left;
+	height: 67px;
+	margin: 0 -4px 0 0;
+	text-align: center;
+	width: 25px;
+	z-index: 1;
+}
+#countbox-days1,
+#countbox-hours1,
+#countbox-mins1,
+#countbox-secs1 {
+	margin-left: 18px;
+}
+#countbox .countbox-num__sec {
+	background: #79aa47;
+	color: #fff;
+	border: 1px solid #79aa47;
+}
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+	#countbox {
+		height: 93px;
+		max-width: 280px;
+		color: #79aa47;
+		line-height: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#countbox .countbox-num {
+		width: 65px;
+		height: 65px;
+		font-size: 26px;
+		padding-left: 0px;
+	}	
+	#countbox-days1,
+	#countbox-hours1,
+	#countbox-mins1,
+	#countbox-secs1 {
+		margin-left: 9px;
+	}
+	#countbox-days-text:before {
+		position: absolute;
+		top: 13px;
+		left: 15px;
+		display: block;
+		content: "дней";
+		font-family: 'LatoRegular', sans-serif;
+	}
+	#countbox-hours-text:before {
+		position: absolute;
+		top: 13px;
+		left: 21px;
+		display: block;
+		content: "час.";
+	}
+	#countbox-mins-text:before {
+		content: "мин.";
+		position: absolute;
+		top: 13px;
+		left: 18px;
+		display: block;
+	}
+	#countbox-secs-text:before {
+		content: "сек.";
+		position: absolute;
+		top: 13px;
+		left: 21px;
+		display: block;
+		color: #fff;
+	}
+	#countbox-days-text,
+	#countbox-hours-text,
+	#countbox-mins-text,
+	#countbox-secs-text {
+		margin-top: 0.8rem;
+		position: relative;
+		width: 20px;
+		font-family: 'LatoRegular', sans-serif;
+		font-size: 16px;
+		color: #79aa47;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+	#countbox {
+		font-family: 'LatoRegular', sans-serif;
+		font-size: 36px;
+		line-height: 70px;
+		margin-top: 30px;
+		padding: 0;
+		max-width: 380px;
+		z-index: 100;
+		position: relative;
+	}
+	#countbox .countbox-num {
+		width: 90px;
+		height: 90px;
+		font-size: 36px;
+		background: #fff;
+		padding-left: 5px;
+	}
+	#countbox .countbox-num__sec {
+		background: #79aa47;
+	}
+	#countbox-days1,
+	#countbox-hours1,
+	#countbox-mins1,
+	#countbox-secs1 {
+		margin-left: 18px;
+	}
+	#countbox-days-text:before {
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		display: block;
+		content: "дней";
+		font-family: 'LatoRegular', sans-serif;
+	}
+	#countbox-hours-text:before {
+		position: absolute;
+		top: 20px;
+		left: 26px;
+		display: block;
+		content: "час";
+	}
+	#countbox-mins-text:before {
+		content: "мин";
+		position: absolute;
+		top: 20px;
+		left: 23px;
+		display: block;
+	}
+	#countbox-secs-text:before {
+		content: "сек";
+		position: absolute;
+		top: 20px;
+		left: 26px;
+		display: block;
+	}
+	#countbox-days-text,
+	#countbox-hours-text,
+	#countbox-mins-text,
+	#countbox-secs-text {
+		font-size: 20px;
+	}
+}
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+	.no-padding {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#countbox {
+		max-width: 100%;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+	.no-padding {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.no-padding-right {
+		padding-right: 0;
+	}
+	.no-padding-left {
+		padding-left: 0;
+	}
+	#countbox {
+		margin: 20px auto;
+	}
+	#countbox .countbox-num {
+		margin-right: 20px;
+	}
+}
