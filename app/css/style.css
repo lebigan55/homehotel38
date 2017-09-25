@@ -934,8 +934,8 @@ label.error {
 #slider.owl-theme .owl-nav [class*=owl-] {
   background: none;
 }
-.fa-angle-right:before,
-.fa-angle-left:before {
+#slider .fa-angle-right:before,
+#slider .fa-angle-left:before {
   font-size: 75px;
 }
 #slider.owl-theme .owl-nav [class*=owl-]:hover {
@@ -1055,6 +1055,10 @@ label.error {
 .main-footer__text-top-right ul li {
   display: inline-block;
   vertical-align: middle;
+  margin-right: 25px;
+}
+.main-footer__text-top-right ul li:last-child {
+  margin-right: 0;
 }
 .main-footer__text-top-right ul li a {
   display: block;
@@ -1093,9 +1097,173 @@ label.error {
 .main-footer__text-bottom ul li a:hover {
   color: #a0a0a0;
 }
+.cart-hotel-number__wrap {
+  width: 100%;
+  padding-top: 85px;
+  margin-bottom: 15px;
+}
+.cart-hotel-number__outdoors {
+  margin-bottom: 35px;
+}
+.cart-hotel-number__outdoors p {
+  font-family: 'GothamProBold', sans-serif;
+  font-size: 3.6rem;
+}
+.project-slide {
+  max-width: 539px;
+}
+.project-slide__headline {
+  margin-bottom: 40px;
+}
+.project-slide__headline h3 {
+  font-family: 'ProximaNova', sans-serif;
+}
+.project-slide__text span {
+  display: block;
+  font-family: 'GothamProBold', sans-serif;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.cart-hotel-number__photo--images {
+  display: none;
+}
+.cart-hotel-number__photo--wrap .cart-hotel-number__photo--images.active {
+  display: block !important;
+}
+.cart-hotel-number__photo--wrap {
+  max-width: 650px;
+}
+.cart-hotel-number__photo--wrap,
+.cart-hotel-number__text--wrap {
+  display: inline-block;
+  vertical-align: top;
+}
+.cart-hotel-number__photo--images {
+  max-width: 650px;
+  height: 450px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  z-index: 20;
+}
+.cart-hotel-number__photo--images img {
+  width: 100%;
+  height: auto;
+}
+.slide-picture-after-two-wrap {
+  margin-top: 20px;
+}
+.slide-picture-after-two-wrap ul li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 3px;
+}
+.slide-picture-after-two-wrap ul li:last-child {
+  margin-right: 0;
+}
+.cart-hotel-number__photo--images-two {
+  max-width: 210px;
+  height: 170px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.slide-picture-after-two img {
+  width: 100%;
+  height: auto;
+}
+.cart-hotel-advantages {
+  width: 100%;
+  padding-top: 40px;
+  margin-bottom: 135px;
+}
+.cart-hotel-advantages__items-wrap ul {
+  text-align: center;
+}
+.cart-hotel-advantages__items-wrap ul li {
+  display: inline-block;
+  vertical-align: top;
+  width: 236px;
+  text-align: center;
+  margin: 15px;
+}
+.cart-hotel-advantages__item--icon {
+  width: 143px;
+  height: 143px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-box-shadow: 0px 2px 14.4px 1.6px rgba(25, 25, 25, 0.16);
+          box-shadow: 0px 2px 14.4px 1.6px rgba(25, 25, 25, 0.16);
+  line-height: 143px;
+  margin: 25px auto;
+}
+.cart-hotel-advantages__item--icon-wrap {
+  width: 67px;
+  height: 58px;
+  margin: 0 auto;
+}
+.cart-hotel-advantages__item--icon-wrap img {
+  max-width: 100%;
+}
+.cart-hotel-advantages__item--text h5 {
+  font-family: 'GothamProBold', sans-serif;
+}
 .similar-apartments {
   width: 100%;
   min-height: 710px;
   background: url("../img/bg-similar-apartments.jpg") top center no-repeat;
   background-size: cover;
+  padding-top: 85px;
+}
+.similar-apartments__headline-wrap {
+  display: block;
+  margin: 0 auto;
+}
+.similar-apartments__headline:after {
+  margin-top: -75px;
+  margin-left: 295px;
+}
+.similar-apartments__slider-wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.similar-apartments__slide-wrap {
+  max-width: 360px;
+  min-height: 430px;
+  background: #fff;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  overflow: hidden;
+}
+.similar-apartments__slide--description p {
+  font-size: 1.6rem;
+}
+.similar-apartments__slide--description ul li p {
+  font-size: 1.3rem;
+}
+.types-housing__item-wrap--description ul li span {
+  font-size: 1.6rem;
+}
+#slider-1.owl-theme .owl-nav [class*=owl-] {
+  background: none;
+  color: #271a10;
+}
+#slider-1 .fa-angle-right:before,
+#slider-1 .fa-angle-left:before {
+  font-size: 55px;
+}
+#slider-1.owl-theme .owl-nav [class*=owl-]:hover {
+  color: #fff;
+}
+#slider-1.owl-theme .owl-nav .owl-prev {
+  position: absolute;
+  left: -5%;
+  top: 35%;
+}
+#slider-1.owl-theme .owl-nav .owl-next {
+  position: absolute;
+  right: -5%;
+  top: 35%;
 }

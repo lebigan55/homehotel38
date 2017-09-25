@@ -3,4 +3,58 @@
 	min-height: 710px;
 	background: url("@{dir}bg-similar-apartments.jpg") top center no-repeat;
     background-size: cover;
+    padding-top: 85px;
+    &__headline-wrap {
+		display: block;
+		margin: 0 auto;
+	}
+	&__headline {		
+		&:after {
+			margin-top: -75px;
+    		margin-left: 295px;
+		}
+	}
+}
+.similar-apartments__slider-wrap {
+	max-width: 1120px;
+	margin: 0 auto;
+}
+.similar-apartments__slide-wrap {
+	max-width: 360px;
+	min-height: 430px;
+	background: @white;
+	border-radius: 5px;
+	overflow: hidden;	
+}
+.similar-apartments__slide--description {
+	p {
+		font-size: 1.6rem;
+	}
+}
+.similar-apartments__slide--description ul li p {
+	font-size: 1.3rem;
+}
+.types-housing__item-wrap--description ul li span {
+	font-size: 1.6rem;
+}
+#slider-1.owl-theme .owl-nav [class*=owl-] {
+	background: none;
+	color: #271a10;
+}
+#slider-1 .fa-angle-right:before, 
+#slider-1 .fa-angle-left:before {
+    font-size: 55px;    
+}
+#slider-1.owl-theme .owl-nav [class*=owl-]:hover {
+	color: #fff;
+}
+#slider-1.owl-theme .owl-nav .owl-prev {
+	position: absolute;
+	left: -5%;
+    top: 35%;    
+}
+#slider-1.owl-theme .owl-nav .owl-next {
+	position: absolute;
+	right: -5%;
+    top: 35%;    
 }

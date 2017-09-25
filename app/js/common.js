@@ -51,6 +51,7 @@ $(document).ready(function() {
         margin:15,        
         nav:true,
         dots: false,
+        navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
         responsive:{
             0:{
                 items:1
@@ -83,6 +84,38 @@ $(document).ready(function() {
         } );
     })(jQuery);
 
+});
+$(function () {
+    $('.cart-hotel-number__photo--images-1')
+
+        .click(function () {
+            $('.cart-hotel-number__photo--images').fadeOut(0);
+            $('.cart-hotel-number__photo--images-1').fadeIn(600);
+            $('.cart-hotel-number__photo--images').removeClass('active');
+            $('.cart-hotel-number__photo--images-1').addClass('active');
+
+        });
+    
+    $('.cart-hotel-number__photo--images-2')
+
+        .click(function () {
+            $('.cart-hotel-number__photo--images').fadeOut(0);
+            $('.cart-hotel-number__photo--images-2').fadeIn(600);
+            $('.cart-hotel-number__photo--images').removeClass('active');
+            $('.cart-hotel-number__photo--images-2').addClass('active');
+
+        });
+
+    $('.cart-hotel-number__photo--images-3')
+
+        .click(function () {
+            $('.cart-hotel-number__photo--images').fadeOut(0);
+            $('.cart-hotel-number__photo--images-3').fadeIn(600);
+            $('.cart-hotel-number__photo--images').removeClass('active');
+            $('.cart-hotel-number__photo--images-3').addClass('active');
+
+        });
+        
 });
 $("#contact-call-back").validate();
 $("#contact-order-call").validate();
