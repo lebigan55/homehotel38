@@ -650,7 +650,7 @@ label.error {
   text-decoration: underline;
 }
 .types-housing__item-wrap {
-  height: 550px;
+  min-height: 550px;
   background: #fff;
   -webkit-border-top-left-radius: 7px;
           border-top-left-radius: 7px;
@@ -1214,49 +1214,113 @@ label.error {
     height: 93px;
     max-width: 280px;
     color: #79aa47;
-    line-height: 50px;
+    line-height: 35px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 13px;
   }
   #countbox .countbox-num {
-    width: 65px;
-    height: 65px;
-    font-size: 26px;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
     padding-left: 0px;
   }
   #countbox-days1,
   #countbox-hours1,
   #countbox-mins1,
   #countbox-secs1 {
-    margin-left: 9px;
+    margin-left: 8.5px;
   }
   #countbox-days-text:before {
     position: absolute;
-    top: 13px;
-    left: 15px;
+    top: 15px;
+    left: 13px;
     display: block;
     content: "дней";
     font-family: 'LatoRegular', sans-serif;
   }
   #countbox-hours-text:before {
     position: absolute;
-    top: 13px;
-    left: 21px;
+    top: 15px;
+    left: 15px;
     display: block;
     content: "час.";
   }
   #countbox-mins-text:before {
     content: "мин.";
     position: absolute;
-    top: 13px;
-    left: 18px;
+    top: 15px;
+    left: 15px;
     display: block;
   }
   #countbox-secs-text:before {
     content: "сек.";
     position: absolute;
-    top: 13px;
-    left: 21px;
+    top: 15px;
+    left: 18px;
+    display: block;
+    color: #fff;
+  }
+  #countbox-days-text,
+  #countbox-hours-text,
+  #countbox-mins-text,
+  #countbox-secs-text {
+    margin-top: 0.8rem;
+    position: relative;
+    width: 20px;
+    font-family: 'LatoRegular', sans-serif;
+    font-size: 16px;
+    color: #79aa47;
+  }
+}
+@media only screen and (min-width: 360px) {
+  #countbox {
+    height: 93px;
+    max-width: 280px;
+    color: #79aa47;
+    line-height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #countbox .countbox-num {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    padding-left: 0px;
+  }
+  #countbox-days1,
+  #countbox-hours1,
+  #countbox-mins1,
+  #countbox-secs1 {
+    margin-left: 8.5px;
+  }
+  #countbox-days-text:before {
+    position: absolute;
+    top: 15px;
+    left: 13px;
+    display: block;
+    content: "дней";
+    font-family: 'LatoRegular', sans-serif;
+  }
+  #countbox-hours-text:before {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: block;
+    content: "час.";
+  }
+  #countbox-mins-text:before {
+    content: "мин.";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: block;
+  }
+  #countbox-secs-text:before {
+    content: "сек.";
+    position: absolute;
+    top: 15px;
+    left: 18px;
     display: block;
     color: #fff;
   }
@@ -1443,8 +1507,15 @@ label.error {
   padding-left: 45px;
 }
 .table-headline {
+  font-family: 'GothamProBold', sans-serif;
+  font-size: 24px;
   text-align: left;
   padding-bottom: 20px;
+}
+.picker,
+.fonts {
+  display: inline-block;
+  vertical-align: top;
 }
 .picker {
   width: 205px;

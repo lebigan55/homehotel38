@@ -2,14 +2,107 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+	#slider-1.owl-theme .owl-nav .owl-next {
+		right: -4%;
+	}
+	#slider-1.owl-theme .owl-nav .owl-prev {
+		left: -4%;
+	}
+	.mfp-close {
+		right: 11%;
+	}
 }
-
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	.main-headline::after {
+		display: none;
+	}
+	.tabs {
+		width: 56%;
+	}
+	.types-housing__item-wrap--description ul li {
+		margin-right: 15px;
+	}
+	.types-housing__item-wrap--description ul li:nth-child(2n) {
+		margin-right: 25px;
+	}
+	.advantages-inner__img--right {
+	    margin-left: 0;
+	}
+	.advantages-inner__text--right,
+	.advantages-inner__text--left {
+	    padding: 75px 25px 75px 45px;
+	}
+	.advantages-inner__text--left::after,
+	.advantages-inner__text--right::after {
+		display: none;
+	}
+	.order-settlement__item-wrap {
+		padding: 40px 30px;
+	}
+	.order-settlement__item-wrap--text p {
+	    font-size: 18px;
+	}
+	.linck-item {
+		font-size: 3.6rem;
+		padding: 40px;
+	}	
+	.reviews__slide--photo {
+		width: 290px;
+		min-height: 0;
+	}
+	.reviews__slide ul li:last-child {
+	    width: 490px;
+	}
+	.reviews__slide--text {
+		padding: 15px;
+	}
+	.contacts {
+		margin-bottom: -35px;
+	}
+	.contacts__lincks-wrap {
+		padding: 40px;
+	}
+	.contacts__lincks-wrap ul li {
+		margin-right: 55px;
+	}
+	.bg-girl-wrap {
+		bottom: 4%;
+		left: 12%;
+	}
+	.main-footer {
+		padding-bottom: 50px;
+	}
+	.main-footer__text-top-right {
+		text-align: left;
+	}
+	.main-footer__text-top-right ul li {
+		margin-right: 0;
+	}
+	.cart-hotel-number__photo--wrap, 
+	.cart-hotel-number__text--wrap {
+	    display: block;
+	    margin: 0 auto;
+	}
+	.cart-hotel-number__text--btn-wrap {
+		margin-bottom: 50px;
+	}
+	.similar-apartments__slide-wrap {
+		min-height: 0;
+	}
+	.types-housing__item-wrap--description {
+	    padding: 35px 35px;
+	}
+	.main-form-timer {
+		max-width: 400px;
+	}
+	.mfp-close {
+	    right: 3%;
+	}
+	.mfp-content {
+		margin-top: 50px;
+	}
 }
-
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {	
 	/*Disable Animation on Mobile Devices*/
@@ -33,41 +126,364 @@
 		-ms-animation: none !important;
 		animation: none !important;
 	}
-
+	.tabs {
+	    width: 73%;
+	}
+	.types-housing__item-wrap--description ul li {
+	    margin-right: 0;
+	    padding: 0 15px;
+	}
+	.types-housing__item-wrap--description ul li:nth-child(2n) {
+	    margin-right: 0;
+	}
+	.types-housing__item-wrap--description ul li:last-child {
+		padding: 0;
+	}
+	.btn-ypes-housing {
+		width: 255px;
+		height: 55px;
+		line-height: 55px;
+		font-size: 2.2rem;
+	}
+	.advantages-inner__img {
+		min-height: 0;
+	}
+	.advantages-inner__text--right, 
+	.advantages-inner__text--left {
+		padding: 25px;
+	}
+	.order-settlement__item-wrap {
+		padding: 47px 40px;
+	}
+	.linck-item {
+		padding: 58px;
+	}	
+	.reviews__slide {		
+		min-height: 345px;
+	    overflow: visible;
+	    background: none;
+	}
+	.reviews__slide ul li,
+	.reviews__slide ul li:last-child {
+		display: block;
+	}
+	.reviews__slide--photo,
+	.reviews__slide ul li:last-child {
+		margin: 0 auto;
+	}
+	#slider.owl-theme .owl-nav .owl-prev {	   
+	    left: 0;
+	    top: 29%;
+	}
+	#slider.owl-theme .owl-nav .owl-next {	    
+	    right: 0;
+	    top: 29%;
+	}
+	.reviews__slide--text {
+	    padding: 25px;
+	    background: #fff;
+	    border-radius: 5px;
+	}
+	.reviews__slide--social-linck {
+		text-align: center;
+		padding: 20px 0;
+	}
+	.reviews__slide--social-linck a {
+		display: block;
+		position: relative;
+	}
+	.reviews__slide--social-linck a::before {
+		left: 25%;
+		top: 19%;
+	}
+	.contacts {
+		padding-bottom: 50px;
+	    margin-bottom: 0;
+	}
+	.contacts__lincks-wrap ul li {
+	    margin-right: 0;
+	    width: 100%;
+	    text-align: center;
+	    margin-bottom: 30px;
+	}
+	.btn-contacts {
+		margin: 0 auto;
+	}
+	.cotacts__lincks--linck::before,
+	.cotacts__lincks--linck-vk::before {
+		left: 30%;
+	}
+	.cotacts__lincks--btn {
+	    padding: 20px;
+	}
+	.bg-girl-wrap {
+		width: 215px;
+		bottom: 0;
+		left: 1%;
+	}
+	.similar-apartments__slide--description {
+	    padding: 35px 15px;
+	}
+	.similar-apartments__slide--description ul li {
+		padding: 0 5px;
+	}
+	#slider-1.owl-theme .owl-nav .owl-next {
+	    right: -5%;
+	}
+	#slider-1.owl-theme .owl-nav .owl-prev {
+	    left: -5%;
+	}
 }
-
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 736px) {
-
+	.tabs {
+	    width: 77%;
+	}
+	.types-housing__item-wrap {
+		width: 78%;
+		margin: 0 auto 30px;
+	}
+	.types-housing__item-wrap--description ul li:last-child {
+		display: block;
+	}
+	.btn-ypes-housing {
+		display: block;
+		width: 360px;
+		margin: 15px auto;
+	}
+	.advantages-inner__img {
+		margin: 0 auto;
+	}
+	.advantages-inner__text {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	.advantages-inner__text h3 {
+		text-align: center;
+	}
+	.order-settlement {
+		padding-top: 75px;
+	}
+	.order-settlement__item-wrap,
+	.linck-item {
+		margin: 0 auto 30px;
+	}	
+	.main-footer {
+		padding-top: 35px;
+	}
+	.main-footer__text-top-right,
+	.main-footer__text-top-left {
+	    text-align: center;
+	}
+	.main-footer__text-top-right ul li {
+		padding: 20px;
+	}
+	.main-footer__text-top-right ul li a {
+		margin-bottom: 20px;
+	}
+	.similar-apartments__slide--description ul li {
+		padding: 0;
+	}
+	.similar-apartments__slide--description ul li:last-child {
+		display: inline-block;
+	}
+	#slider-1.owl-theme .owl-nav .owl-next,
+	#slider-1.owl-theme .owl-nav .owl-prev {
+	    display: none;
+	}
 }
-
 /* Custom, iPhone 6 */
-@media only screen and (max-width : 667px) {
-
+@media only screen and (max-width : 668px) {
+	.tabs {
+	    width: 83%;
+	}
+	.cotacts__lincks--linck::before, 
+	.cotacts__lincks--linck-vk::before {
+	    left: 26%;
+	}
+	.bg-girl-wrap {
+		bottom: -4%;
+	}
+	.cart-hotel-number__photo--images {
+		height: auto;
+	}
+	.cart-hotel-number__photo--images-two {
+		max-width: 206px;
+	}
+	.main-form .input-group {
+		display: block;
+		width: 360px;
+		max-width: 100%;
+		margin: 20px auto;
+	}
 }
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
-
+	.tabs {
+	    width: 100%;
+	}
+	.reviews__slide--social-linck a::before {
+		left: 20%;
+	}
+	.cotacts__lincks--linck::before, 
+	.cotacts__lincks--linck-vk::before {
+	    left: 21%;
+	}
+	.cart-hotel-number__photo--images-two {
+	    max-width: 173px;
+	}
+	.similar-apartments__slide-wrap {
+		margin: 0 auto;
+	}
+	#slider-1.owl-theme .owl-nav .owl-next,
+	#slider-1.owl-theme .owl-nav .owl-prev {
+	    display: block;
+	}
+	#slider-1.owl-theme .owl-nav .owl-next {
+	    right: 0%;
+	}
+	#slider-1.owl-theme .owl-nav .owl-prev {
+	    left: 0%;
+	}
 }
-
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-    
+    .tabs a {
+    	font-size: 1.6rem;
+    }
+    .reviews__slide ul li:last-child {
+	    width: 100%;
+	}
+	.reviews__slide--social-linck a::before {
+	    left: 13%;
+	}
+	.cotacts__lincks--linck::before, 
+	.cotacts__lincks--linck-vk::before {
+	    left: 15%;
+	}
+	.bg-girl-wrap {
+		width: 170px;
+	}
+	.main-footer__text-bottom ul li {
+		display: block;
+		margin-right: 0;
+		margin-bottom: 25px;
+	}
+	.cart-hotel-number__photo--images-two {
+	    max-width: 144px;
+	    height: 130px;
+	}
+	.mfp-close {
+	    right: -1%;	    
+	}
+	#slider.cart-hotel-carousel .owl-nav .owl-next,
+	#slider.cart-hotel-carousel .owl-nav .owl-prev {
+		top: 22%;
+	}
 }
-
 /* Custom, iPhone 6 Plus*/
-@media only screen and (max-width : 414px) {
-
+@media only screen and (max-width : 416px) {
+	.tabs li {
+		clear: both;
+		width: 100%;
+		text-align: center;
+	}
+	.tabs a {
+	    font-size: 2rem;
+	}
+	.types-housing__item-wrap {
+		width: 95%;
+		min-height: 0;
+	}	
+	.types-housing__item-wrap--description {
+	    padding: 35px 15px;
+	}
+	.reviews__slide--social-linck a::before {
+	    left: 8%;
+	}	
+	.contacts__lincks-wrap {
+	    padding: 40px 5px;
+	}
+	.cotacts__lincks--btn {
+	    padding: 20px 0;
+	}
+	.cart-hotel-number__photo--images-two {
+	    max-width: 122px;
+	    height: 110px;
+	}
+	.cart-hotel-number__text--wrap {
+		padding-left: 0;
+	}
 }
-
 /* Custom, iPhone 6 */
-@media only screen and (max-width : 375px) {
-
+@media only screen and (max-width : 377px) {
+	.advantages-inner__text--right, 
+	.advantages-inner__text--left {
+	    padding: 25px 10px;
+	}
+	#slider.owl-theme .owl-nav .owl-next {	    
+	    right: -4%;
+	    top: 28%;
+	}
+	#slider.owl-theme .owl-nav .owl-prev {	    
+	    left: -4%;
+	    top: 28%;
+	}
+	.cart-hotel-number__photo--images-two {
+	    max-width: 109px;
+	    height: 105px;
+	}
+	#slider.cart-hotel-carousel .owl-nav .owl-next, 
+	#slider.cart-hotel-carousel .owl-nav .owl-prev {
+		top: 17%;
+	}
 }
-
+@media only screen and (max-width : 360px) {
+	#slider.owl-theme .owl-nav .owl-next {
+	    right: -6%;
+	    top: 26%;
+	}
+	#slider.owl-theme .owl-nav .owl-prev {
+	    left: -6%;
+	    top: 26%;
+	}
+	.reviews__slide--social-linck a::before {
+	    left: 0%;
+	}
+	.contacts__lincks-wrap {
+	    padding: 40px 0px;
+	}
+	.cart-hotel-number__photo--images-two {
+	    max-width: 104px;
+	    height: 100px;
+	}
+	#slider.cart-hotel-carousel .owl-nav .owl-next, 
+	#slider.cart-hotel-carousel .owl-nav .owl-prev {
+		top: 13%;
+	}
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	.reviews__slide {
+		background: #fff;
+	}
+	.cotacts__lincks--linck::before, 
+	.cotacts__lincks--linck-vk::before {
+	    left: 10%;
+	}
+	.btn-contacts {
+		font-size: 1.8rem;
+	}
+	.cart-hotel-number__photo--images-two {
+	    max-width: 91px;
+	    height: 80px;
+	}
+	.picker {
+		width: 160px;
+	}
+	.reservation,.remodal-call-back {
+		padding: 35px 5px;
+	}
 }
 /*==========  Mobile First Method  ==========*/
 
