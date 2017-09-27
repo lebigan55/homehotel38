@@ -380,6 +380,9 @@
 	#slider.cart-hotel-carousel .owl-nav .owl-prev {
 		top: 22%;
 	}
+	.policy-confidential h2.main-headline {
+		font-size: 2.8rem;
+	}
 }
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 416px) {
@@ -414,6 +417,12 @@
 	.cart-hotel-number__text--wrap {
 		padding-left: 0;
 	}
+	.policy-confidential h2.main-headline {
+	    font-size: 2.4rem;
+	}
+	.policy-confidential h2 {
+		font-size: 3.6rem;
+	}
 }
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 377px) {
@@ -436,6 +445,9 @@
 	#slider.cart-hotel-carousel .owl-nav .owl-next, 
 	#slider.cart-hotel-carousel .owl-nav .owl-prev {
 		top: 17%;
+	}
+	.policy-conf {
+		padding: 35px 10px;
 	}
 }
 @media only screen and (max-width : 360px) {
@@ -461,6 +473,12 @@
 	#slider.cart-hotel-carousel .owl-nav .owl-prev {
 		top: 13%;
 	}
+	.policy-confidential h2.main-headline {
+	    font-size: 2.2rem;
+	}	
+	.policy-confidential h2 {
+	    font-size: 3rem;
+	}
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
@@ -480,9 +498,14 @@
 	}
 	.picker {
 		width: 160px;
-	}
-	.reservation,.remodal-call-back {
+	}	
+	.reservation,
+	.remodal-call-back,
+	.policy-conf {
 		padding: 35px 5px;
+	}
+	.policy-confidential h2.main-headline {
+	    font-size: 2rem;
 	}
 }
 /*==========  Mobile First Method  ==========*/
