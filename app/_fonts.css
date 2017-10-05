@@ -231,6 +231,16 @@
 .fa-instagram:before {
   content: "\f16d";
 }
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  content: "\f0c9";
+}
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+  content: "\f00d";
+}
 .sr-only {
   position: absolute;
   width: 1px;

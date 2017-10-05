@@ -4,7 +4,7 @@ $(function() {
 
 
     // Smooth Scroll to block
-    $('a[href^="#advantages"],a[href^="#order-settlement"],a[href^="#reviews"],a[href^="#contacts"]').click(function(){
+    $('a[href^="#catalog"],a[href^="#advantages"],a[href^="#order-settlement"],a[href^="#reviews"],a[href^="#contacts"]').click(function(){
         var target = $(this).attr('href');
         $('html, body').animate({scrollTop: $(target).offset().top}, 1000);
         return false; 
